@@ -9,7 +9,7 @@ import location from '../assets/location.png'
 import bird from '../assets/bird.png'
 import egypt from '../assets/Egypt-icon.png'
 import pyramid from '../assets/pyramid.png'
-import brasilien from '../assets/brasilien-icon.png'
+import brasilien from '../assets/Brasilien-icon.png'
 
 
 
