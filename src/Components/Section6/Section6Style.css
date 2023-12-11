@@ -21,6 +21,17 @@
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0);
     color:white;
+    
+}
+
+.section6 button:hover{
+    background-color: #DF6951;
+    cursor: pointer;
+}
+
+.section6 h1{
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .nature{

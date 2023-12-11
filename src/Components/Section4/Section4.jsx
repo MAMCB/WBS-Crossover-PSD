@@ -16,7 +16,7 @@ import "./Section4Style.css"
 const Section4 = () => {
   return (
     <div className="section">
-      <div className="subSection">
+      <div className="subSection" id="subsection1">
         <h4 id="first">Fast & Easy</h4>
         <h1>Get Your Favourite Resort Bookings</h1>
 
