@@ -66,7 +66,7 @@
 
 .Packa {
   width: 30%;
-  
+
   padding: 0.5rem;
   background: #df6951;
   box-shadow: 0px 20px 35px rgba(223, 105, 81, 0.15);
@@ -122,7 +122,7 @@
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
   margin-top: -28rem;
-  margin-left: -10rem
+  margin-left: -10rem;
 }
 
 .price {
@@ -140,5 +140,4 @@
   right: 0;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
-
 }
