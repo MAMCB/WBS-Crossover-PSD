@@ -2,7 +2,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-h1,h2,h3,h4,h5{
+.section h1,.section h2,.section h3,.section h4,.section h5{
     font-family: 'Poppins', sans-serif;
 }
 

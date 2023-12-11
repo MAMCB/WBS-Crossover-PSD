@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+
+
+
+.section6{
+    display: flex;
+    padding: 2rem;
+    margin-top: 3rem;
+      text-align: center;
+    color:white;
+    font-family: 'Volkhov', serif;
+}
+
+.section6 button{
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    height:3rem;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color:white;
+}
+
+.nature{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        /* bottom, image */
+        url("../Section6/images/Nature.png");
+    
+    background-position:center ;
+    padding: 7rem;
+    width: 50%;
+   
+  
+
+}
+
+.city{
+     background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        /* bottom, image */
+        url("../Section6/images/City.png");
+    
+    background-position:center ;
+    padding: 7rem;
+     width: 50%;
+    
+}
