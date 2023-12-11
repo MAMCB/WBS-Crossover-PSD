@@ -4,6 +4,7 @@
     display: flex;
     padding: 2rem;
     place-items: center;
+    /* justify-content: space-between; */
 }
 
 .bulletPoint{
@@ -38,16 +39,66 @@
     top:3rem;
     z-index: 1;
     box-shadow: 0px 18px 6px rgba(128, 128, 128, 0.301);
+   
+    
     
 }
 
 .card-background{
     background-image:url("../Section4/images/Ellipse 8.png") ;
-    overflow-y: visible;
+    background-position:center ;
+    background-size: 25rem;
+   
+    
    
     
 }
 
 #subsection2{
     display: flex;
+    width: 50%;
+}
+
+.popUp-card{
+    
+    z-index: 2;
+    background-color: white;
+    height: 8rem;
+    min-width: 300px;
+    border-radius: 15px;
+    padding: 1rem;
+    position: relative;
+    top:14rem;
+    box-shadow: 0px 12px 6px rgba(128, 128, 128, 0.301);
+
+}
+
+.popUp-top{
+display: flex;
+
+}
+
+#airplane{
+    z-index: -1;
+    position: relative;
+    right:18rem;
+    bottom: 5rem;
+}
+
+.card-footer{
+    display: flex;
+}
+
+.progressBar-container{
+    margin-top: 1rem;
+height:0.8rem;
+border:1px solid black;
+border-radius: 20px;
+background-color: rgb(235, 238, 238);
+}
+
+.progressBarr-fill{
+height: 100%;
+width:40%;
+background-color:#DF6951 ;
 }

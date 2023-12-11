@@ -73,11 +73,14 @@ const Section4 = () => {
         </div>
 
         <div className="popUp-card">
-          <img src={sunset} alt="sunset" />
-          <div>
-            <p>Ongoing</p>
-            <h3>Trip to Rome</h3>
+          <div className="popUp-top">
+            <img src={sunset} alt="sunset" />
+            <div>
+              <p>Ongoing</p>
+              <h3>Trip to Rome</h3>
+            </div>
           </div>
+
           <h4>
             <span>40%</span>completed
           </h4>
@@ -85,7 +88,7 @@ const Section4 = () => {
             <div className="progressBarr-fill"></div>
           </div>
         </div>
-        <img src={Airplane} alt="airplane" />
+        <img id="airplane" src={Airplane} alt="airplane" />
       </div>
     </div>
   );
