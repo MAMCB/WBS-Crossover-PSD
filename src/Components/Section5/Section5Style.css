@@ -1,0 +1,144 @@
+.liberty {
+  background-image: url("../src/assets/liberybackground.png");
+
+  background-repeat: no-repeat;
+  padding: 10rem;
+}
+
+.holidayText {
+  color: white;
+  font-size: 50px;
+  font-family: Volkhov;
+  font-weight: 700;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  width: 45%;
+}
+
+.amazingLine {
+  width: 100%;
+  height: 100%;
+  transform: rotate(5.54deg);
+  transform-origin: 0 0;
+  background: white;
+}
+
+.sightseeing {
+  padding: 2rem;
+  margin-left: 13rem;
+  margin-top: 2rem;
+}
+
+.promotion {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.promotion > p:first-child {
+  color: #df6951;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  word-wrap: break-word;
+}
+
+.promotion h3 {
+  color: #181e4b;
+  font-size: 50px;
+  font-family: Volkhov;
+  font-weight: 700;
+  line-height: 71.04px;
+  word-wrap: break-word;
+}
+
+.promotionPara {
+  color: black;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.Packa {
+  width: 30%;
+  
+  padding: 0.5rem;
+  background: #df6951;
+  box-shadow: 0px 20px 35px rgba(223, 105, 81, 0.15);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  color: white;
+}
+
+.pictureTravels {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.travel1 {
+  background-image: url("../src/assets/travel1.png");
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.travel2 {
+  background-image: url("../src/assets/travel2.png");
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.travel3 {
+  background-image: url("../src/assets/travel3.png");
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  position: relative;
+}
+.travel4 {
+  background-image: url("../src/assets/travel4.png");
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  position: relative;
+}
+.travel5 {
+  background-image: url("../src/assets/travel5.png");
+  width: 25rem;
+  height: 50rem;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  margin-top: -28rem;
+  margin-left: -10rem
+}
+
+.price {
+  width: 30%;
+  background: linear-gradient(100deg, #ff7255 0%, #ba4e38 100%);
+  border-radius: 46px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 300;
+  word-wrap: break-word;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+
+}
